@@ -61,6 +61,6 @@ Solución: Se elimina línea en la que se volvía NULL la conexión luego de actuali
 
 •	Se incluyen las funciones ```IdentifySession``` en el ```frmMain.cs``` y ```frmConsulta.cs```, con el fin de incluir la información del nombre del usuario logueado en el campo CLIENT_INFO de V$SESSION ya que un cliente requiere utilizarlo para filtrar listas de valores de parámetros en momentos de ejecución a partir de ese nombre de usuario.      
 
-•	Se incluye también el manejo de verificar si quien está cambiando la clave de un usuario es un usuario de tipo administrador (<= 1), para que no le pida la clave actual del usuario y pueda realizar el cambio sin necesidad de conocerla.
+•	Se incluye también el manejo de verificar si quien está cambiando la clave de un usuario es un usuario de tipo administrador (<= 1), para que no le pida la clave actual del usuario y pueda realizar el cambio sin necesidad de conocerla..
 
 
